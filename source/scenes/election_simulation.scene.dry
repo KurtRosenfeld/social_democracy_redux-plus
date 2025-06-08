@@ -18,7 +18,7 @@ Q.unemployed = 8.6;
 Q.catholics = 30;
 
 Q.classes = ['workers', 'old_middle', 'new_middle', 'rural', 'unemployed', 'catholics'];
-Q.parties = ['spd', 'sapd', 'kpd', 'z', 'ddp', 'dvp', 'dnvp', 'nsdap', 'other'];
+Q.parties = ['spd', 'sapd', 'kpd', 'z', 'ddp', 'dvp', 'dnvp', 'nsdap', 'other', 'sbp'];
 
 // Support for party by social group
 // they don't have to sum to 100 since the electoral calculations will be normalized.
@@ -314,6 +314,9 @@ Z + BVP: [+ z_r +]
 
 # 1928: 10, 1930: 13
 KPD: [+ kpd_r +]
+
+# 1928: 0, 1930: 0
+SBP: [+ sbp_r +]
 
 # 1928: 5, 1930: 4 (as DstP)
 DDP: [+ ddp_r +]
